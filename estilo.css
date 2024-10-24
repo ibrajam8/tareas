@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4A90E2;  
+    text-align: center;
+    text-transform: uppercase;  
+    letter-spacing: 2px;  
+    padding: 10px 0;
+    border-bottom: 2px solid #4A90E2;  
+    background-color: #f2f2f2;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    border-radius: 8px;  
+}
+.decoracion-titulo {
+    font-family: 'Arial', sans-serif; 
+    font-size: 48px; 
+    color: #fff; 
+    text-align: center; 
+    background: linear-gradient(90deg, #ff6b6b, #feca57); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 2px; 
+    padding: 20px; 
+    margin: 0; 
+  }
+  
