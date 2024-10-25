@@ -106,7 +106,74 @@ section {
 #tools a:hover {
     text-decoration: underline;
 }
+/* Consejos para Principiantes */
+#tips {
+    background-color: #fff;
+    padding: 3em 0;
+}
 
+#tips ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+#tips li {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+/* Competencias Populares */
+#competitions {
+    background-color: #f9f9f9;
+    padding: 3em 0;
+}
+
+.competitions-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.competition {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.competition:hover {
+    transform: translateY(-5px);
+}
+/* Formulario de Contacto */
+#contact {
+    background-color: #f9f9f9;
+    padding: 3em 0;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact label {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+#contact input, #contact textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+#contact button 
 h1 
 {
     font-family: 'Arial', sans-serif;
