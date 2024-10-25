@@ -1,3 +1,112 @@
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+header .btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #ff3d3d;
+}
+/* Sección de introducción */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#intro {
+    background-color: #fff;
+    padding: 3em 0;
+}
+
+#intro h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Beneficios */
+#Beneficios {
+    background-color: #f9f9f9;
+    padding: 3em 0;
+}
+
+.Beneficios-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.Beneficios {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Beneficios h3 {
+    color: #ff6f61;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+/* Herramientas y Recursos */
+#tools {
+    background-color: #fff;
+    padding: 3em 0;
+}
+
+#tools ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#tools li {
+    margin: 0.5em 0;
+}
+
+#tools a {
+    color: #ff6f61;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#tools a:hover {
+    text-decoration: underline;
+}
+
 h1 
 {
     font-family: 'Arial', sans-serif;
